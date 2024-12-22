@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    background-color: #141024;
+}
+.header .Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header .Container .contentPart{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+}
+.header .Container .contentPart h2{
+    font-size: 50px;
+    font-weight: 600;
+}

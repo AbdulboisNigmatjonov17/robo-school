@@ -1,0 +1,33 @@
+.PaketCards{
+    display: flex;
+    justify-content: space-between;
+}
+.PaketCards .PaketCard{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px 20px;
+    cursor: pointer;
+    color: #141024;
+}
+.PaketCards .PaketCard:hover{
+    background-color: #141024;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.PaketCards .PaketCard h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.PaketCards .PaketCard h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+

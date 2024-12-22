@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #D52027;
+}
+nav .callNumber h3{
+    font-size: 30px;
+    color: #fff;
+}

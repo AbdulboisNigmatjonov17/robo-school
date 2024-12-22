@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.BigContainer{
+  max-width: 1536px;
+  margin: 0 auto;
+}
+.MainPart{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}

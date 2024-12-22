@@ -1,0 +1,24 @@
+.Carousel{
+    display: flex;
+    cursor: grab;
+}
+.Carousel  .carouselCard{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+}
+
+.Carousel:active{
+    cursor: grabbing;
+}
+.Carousel  .carouselCard button{
+    border: none;
+    text-align: left;
+    background: none;
+    color: #D52027;
+    cursor: pointer;
+}
+.Carousel  .carouselCard img{
+    border-radius: 20px;
+}

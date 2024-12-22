@@ -1,0 +1,22 @@
+.Footer{
+    background-color: #141024;
+    color: #fff;
+}
+.Footer .BigContainer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Footer .BigContainer .leftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Footer .BigContainer .leftSide span{
+    color:#FFFFFFB2;
+}
+
+.Footer .BigContainer .rightSide h2{
+    color: #fff;
+}

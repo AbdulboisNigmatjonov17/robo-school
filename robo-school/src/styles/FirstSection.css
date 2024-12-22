@@ -1,0 +1,28 @@
+.firstSectionContent{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    gap: 50px;
+    margin-top: 50px;
+}
+.firstSectionContent .firstSectionContentPart p{
+    width: 800px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.firstSectionContent p span{
+    font-weight: 900;
+}
+.firstSectionContent .firstSectionCards{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;   
+}
+.firstSectionContent .firstSectionCards .firstSectionCard{
+    width: 250px;
+    height: 200px;
+}
+.firstSectionContent .firstSectionCards .firstSectionCard h2{
+    font-size: 50px; 
+    color: #D52027;
+}

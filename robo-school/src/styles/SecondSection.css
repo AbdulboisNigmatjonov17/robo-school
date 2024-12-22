@@ -1,0 +1,30 @@
+.secondSection{
+    background-color: #F9F9F9;
+}
+.secondSection .Container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0px;
+}
+.secondSection .Container .secondSectionCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection .Container h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+.secondSection .Container .secondSectionCards .secondSectionCard{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.secondSection .Container .secondSectionCards .secondSectionCard h3{
+    font-weight: 600;
+}
+.secondSection .Container .secondSectionCards .secondSectionCard p{
+    color: #141024B2;
+}
